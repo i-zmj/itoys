@@ -1,0 +1,14 @@
+{
+    "android" : {
+        "exec_path" : "adb",
+        "__device_id" : "多设备场景下，可以指定设备ID，通过adb devices可以查看设备ID",
+        "device_id" : "",
+        "sync_source_dirs" : [
+            "/sdcard/Android/data/net.izmj.app/files/log",
+            "/sdcard/Android/data/net.izmj.app/files/crash"
+        ]
+    },
+    "pc" : {
+        "sync_target_dir" : "D:\\sync_dir"
+    }
+}

@@ -12,8 +12,11 @@ i-toys是个人使用的脚本集合。将一些常用的操作整合成脚本�
   - 需要sudo权限。
   - 脚本原理是搜索http.*.ubuntu.com，替换为指定源https://mirrors.izmj.net。
   - 自定义原地址时，请确保路径与预置的源格式一致。
-1.  xxxx
-2.  xxxx
+- adb_sync_dir.py
+  - 将手机目录同步到PC目录。
+  - 需要adb环境。
+  - 涉及adb shell su -c 命令，可能需要root权限。
+  - 需要搭配adb_sync_dir.json文件进行使用。可以参考adb_sync_dir.json.sample
 
 #### 参与贡献
 
