@@ -67,7 +67,7 @@ else:
     source_choice_int = int(source_choice)
     if (source_choice_int > 0 and source_choice_int <= len(source_table)):
         source_url = source_table[source_choice_int - 1][1]
-        print('>>> 已选择源：' + source_table[i][0] + ' (' + source_table[i][1] + ')')
+        print('>>> 已选择源：' + source_table[source_choice_int - 1][0] + ' (' + source_table[source_choice_int - 1][1] + ')')
     else:
         print('\033[91m[ERROR] 选择的源不存在！\033[0m')
         exit(0)
