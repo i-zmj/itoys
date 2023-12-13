@@ -1,0 +1,31 @@
+{
+    "update_url": "https://repo_info.izmj.net/itoys/",
+    "format_ver" : "1.0",
+    "version": "2023121301",
+    "name": "itoys",
+    "project": [
+        {
+            "branch" : "master",
+            "repo" : [
+                {
+                    "path" : "itoys",
+                    "url" : "https://gitee.com/izmj/itoys.git",
+                    "branch" : "master",
+                    "build_tool" : "cmake"
+                },
+                {
+                    "path" : "ctoys",
+                    "url" : "https://gitee.com/izmj/ctoys.git",
+                    "branch" : "master",
+                    "build_tool" : "cmake"
+                },
+                {
+                    "path" : "jtoys",
+                    "url" : "https://gitee.com/izmj/jtoys.git",
+                    "branch" : "master",
+                    "build_tool" : "gradle"
+                }
+            ]
+        }
+    ]
+}
