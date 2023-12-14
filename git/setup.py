@@ -16,8 +16,8 @@ print("======== 欢迎使用 izmj/itoys 更新设置工具 ========")
 
 # 循环执行
 while True:
-    print("\n>>> 菜单：")
-    print("   1. 更新Repo库基础信息(repo_info.json)仓库信息")
+    print("\n================ 菜单：================")
+    print("\n   1. 更新Repo库基础信息(repo_info.json)仓库信息")
     print("   0. 退出")
 
     choice = input('\n请选择：')
@@ -71,6 +71,6 @@ while True:
                     else:
                         print('>>> 已取消更新repo_info.json文件')
                 else:
-                    print('\n>>> 检测到repo_info_update.json文件版本号一致，无需更新')
+                    print('\n\033[92m[INFO] 检测到repo_info_update.json文件版本号一致，无需更新\033[0m')
 
 print('\n======== 感谢使用 izmj/itoys 更新设置工具 ========')

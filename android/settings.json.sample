@@ -6,6 +6,10 @@
         "sync_source_dirs" : [
             "/sdcard/Android/data/net.izmj.app/files/log",
             "/sdcard/Android/data/net.izmj.app/files/crash"
+        ],
+        "clear_dirs" : [
+            "/sdcard/Android/data/net.izmj.app/files/log",
+            "/sdcard/Android/data/net.izmj.app/files/crash"
         ]
     },
     "pc" : {
