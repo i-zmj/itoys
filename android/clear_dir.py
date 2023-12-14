@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
 import os,sys
-# 添加当前目录的上级目录../common到sys.path中，以便导入itoys_common
-sys.path.append(os.path.join(os.getcwd(), "../common"))
 
-import itoys_common as itoys
+# 添加当前目录的上级目录../common到sys.path中，以便导入itoys_common
+sys.path.append(os.path.join(os.getcwd(), ".."))
+
+import common.itoys_common as itoys
 
 itoys.check_python_version()
 

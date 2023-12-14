@@ -13,14 +13,15 @@ itoys是个人使用的脚本集合。将一些常用的操作整合成脚本，
 
 #### 使用说明
 
-- Android
-  - adb_sync_dir.py
+- android
+  - sync_dir.py
     - 将手机目录同步到PC目录。
-    - 需要adb环境。
-    - 涉及adb shell su -c 命令，可能需要root权限。
-    - 需要搭配adb_sync_dir.json文件进行使用。可以参考adb_sync_dir.json.sample
+    - 适用于进行开发时，将日志、堆栈等文件同步到手机。
+  - clear_dir.py
+    - 清空指定手机目录。
+    - 适用于删除旧日志、缓存等文件。
 
-- Linux
+- linux
   - replace_apt_source.py
     - 替换ubuntu的apt源，便于加速ubuntu的安装和升级。
     - `/etc/apt/sources.list`将备份到`/etc/apt/sources.list.izmj.bak`。如果备份已经存在，则不重复备份。
@@ -28,6 +29,8 @@ itoys是个人使用的脚本集合。将一些常用的操作整合成脚本，
     - 脚本原理是搜索http.*.ubuntu.com，替换为国内源（可选，可自定义）。
     - 自定义原地址时，请确保路径与预置的源格式一致。
 
+- git
+  - setup.py
 
 #### 参与贡献
 

@@ -2,9 +2,9 @@
 
 import os,sys
 # 添加当前目录的上级目录../common到sys.path中，以便导入itoys_common
-sys.path.append(os.path.join(os.getcwd(), "../common"))
+sys.path.append(os.path.join(os.getcwd(), ".."))
 
-import itoys_common as itoys
+import common.itoys_common as itoys
 
 itoys.check_python_version()
 itoys.entry_tool('同步Android目录')
