@@ -1,10 +1,10 @@
-# itoys
+# iToys工具集
 
 #### 介绍
 
 itoys是个人使用的脚本集合。将一些常用的操作整合成脚本，一键执行。
 
-国内维护地址：https://gitee.com/izmj/itoys.git
+国内维护地址：https://gitee.com/izmj/itoys.git  
 国外维护地址：https://github.com/i-zmj/itoys.git
 
 有需求，问题，可新建issue。视心情开发。

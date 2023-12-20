@@ -67,8 +67,10 @@ else:
             import shutil
             shutil.rmtree(sync_target_dir)
             os.makedirs(sync_target_dir)
+    elif '-D' in sys.argv:
+        itoys.echo_process('检测到-D参数，跳过PC目录清空确认，不执行。')
     else:
-        itoys.echo_tip('添加-d参数，可跳过PC目录清空确认。')
+        itoys.echo_tip('添加-d参数，可跳过PC目录清空确认。添加-D参数，则不清空PC目录。')
         choice = itoys.choose('请确认是否清空PC目录？(y/n) ')
         if  choice == 'y':
             if (os.path.exists(sync_target_dir)):
