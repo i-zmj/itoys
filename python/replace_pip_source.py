@@ -14,11 +14,11 @@ trusted-host = https://pypi.tuna.tsinghua.edu.cn
 print('======== 欢迎使用izmj/itoys替换pip源脚本 ========')
 
 pip_ini = ''
+user_dir = os.path.expanduser("~")
 if platform.system() == "Windows":
-    user_dir = os.path.expanduser("~")
     pip_ini = os.path.join(user_dir, 'pip/pip.ini')
 elif platform.system() == "Linux":
-    pip_ini = '~/.pip/pip.conf'
+    pip_ini = os.path.join(user_dir, '.pip/pip.conf')
 
 pip_ini = os.path.abspath(pip_ini)
 if os.path.exists(pip_ini):
